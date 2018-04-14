@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:untitled-ontology-6="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6"/>
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#Quente"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#Sala"/>
+        <temSensor rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1"/>
+        <temSensor rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2"/>
+        <temSensor rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3"/>
+        <rdfs:label>sala1</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#Sensor"/>
+        <temTemperatura rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+        <rdfs:label>sensor1</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#Sensor"/>
+        <temTemperatura rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+        <rdfs:label>sensor2</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#Sensor"/>
+        <rdfs:label>sensor3</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#muitoQuente"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sala1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/ruhan/ontologies/2018/3/untitled-ontology-6#sensor3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

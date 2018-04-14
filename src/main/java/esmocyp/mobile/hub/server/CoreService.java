@@ -1,6 +1,7 @@
 package esmocyp.mobile.hub.server;
 
 import com.google.gson.JsonObject;
+import esmocyp.mobile.hub.reasoning.ReasoningServiceFacade;
 import lac.cnclib.sddl.message.ApplicationMessage;
 import lac.cnclib.sddl.message.ClientLibProtocol;
 import lac.cnclib.sddl.serialization.Serialization;
@@ -12,6 +13,8 @@ import lac.cnet.sddl.udi.core.UniversalDDSLayerFactory;
 import lac.cnet.sddl.udi.core.listener.UDIDataReaderListener;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -26,6 +29,8 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
     private Object receiveMessageTopic;
     private SddlLayer core;
 
+    @Autowired
+    ReasoningServiceFacade reasoningServiceFacade;
 
     @PostConstruct
     public void init() {
@@ -41,7 +46,7 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
         receiveMessageTopic = core.createTopic( Message.class, Message.class.getSimpleName() );
         core.createDataReader( this, receiveMessageTopic );
 
-        initMEPAQuery();
+        reasoningServiceFacade.initService();
     }
 
     private void initMEPAQuery() {
@@ -88,14 +93,68 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
         core.writeTopic( PrivateMessage.class.getSimpleName(), privateMSG );
     }
 
+    /**
+     * Handle different events identified by a label
+     * @param label The identifier of the event
+     * @param data The data content of the event in JSON
+     * @throws ParseException
+     */
+    private void handleEvent( final String label, final JSONObject data ) throws ParseException {
+
+        System.out.println( "\n===========================" );
+
+        switch( label ) {
+            case "MaxAVG":
+                Double avg = (Double) data.get( "average" );
+                if( avg > 30 )
+                    System.out.println( "Feels like hell!" );
+
+                else if( avg >= 20 && avg <= 30 )
+                    System.out.println( "The weather is perfect!" );
+
+                else
+                    System.out.println( "It is freezing here!" );
+                break;
+
+            case "HeatIndex":
+                Double heat = ( Double ) data.get("value");
+
+                String message = null;
+                if( heat >= 80 && heat <= 90 ) {
+                    message = "Heat: Caution";
+
+                } else if( heat > 90 && heat <= 105 ) {
+                    message = "Heat: Extreme Caution";
+
+                } else if( heat > 105 && heat <= 130 ) {
+                    message = "Heat: Danger";
+
+                } else if( heat > 130 ) {
+                    message = "Heat: Extreme Danger";
+
+                }
+
+
+                System.out.println( heat );
+                break;
+
+            default:
+                break;
+        }
+
+        System.out.println( "===========================\n" );
+    }
+
     @Override
-    public void onNewData( ApplicationObject applicationObject ) {
-        Message message = null;
+    public void onNewData( ApplicationObject topicSample ) {
+        Message msg = null;
 
-        if( applicationObject instanceof Message ) {
-            message = ( Message ) applicationObject;
+        if( topicSample instanceof Message ) {
+            msg = (Message) topicSample;
+            UUID nodeId = msg.getSenderId();
+            UUID gatewayId = msg.getGatewayId();
 
-            String content = new String( message.getContent() );
+            String content = new String( msg.getContent() );
             JSONParser parser = new JSONParser();
 
             try {
@@ -103,22 +162,32 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
                 String tag = (String) object.get( "tag" );
 
                 switch( tag ) {
+                    case "SensorData":
+                        break;
 
                     case "EventData":
                         final String label = (String) object.get( "label" );
                         final JSONObject jsonObject = ( JSONObject ) object.get("data");
 
-                        //handleEvent( label, jsonObject );
+                        handleEvent( label, jsonObject );
                         break;
 
+                    case "LocationData":
+                        final Double longitude = (Double) object.get("longitude");
+                        final Double latitude = (Double) object.get("latitude");
+
+                        final String latLong = String.format("Longitude: %s | Latitude: %s", longitude, latitude);
+                        System.out.println( latLong );
+
+                        break;
+
+                    case "ReplyData":
+                    case "ErrorData":
+                        break;
                 }
             } catch( Exception ex ) {
                 System.out.println( ex.getMessage() );
             }
         }
-    }
-
-    private void handleEvent(  ) {
-
     }
 }
