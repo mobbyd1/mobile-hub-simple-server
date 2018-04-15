@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
@@ -27,7 +28,7 @@ public class ReasoningServiceFacade {
 
     private static final String SERVICE_BASE_URL = "http://192.168.25.189:8080/api/reasoner/";
 
-    private static final String TOKEN = "Bearer 9346d5a5-208e-4ee8-adba-7fc1e511e185";
+    private static final String TOKEN = "Bearer 17d19e4a-28bc-45a4-a072-a874364c4204";
 
     /**
      * Make a post call to init the reasoning service
@@ -43,7 +44,7 @@ public class ReasoningServiceFacade {
         String aBox = getFileAsString("esmocyp-temperature-data.rdf");
         String query = getQuery();
 
-        Map<String, String> params = new HashMap<>();
+        Map<String, Object> params = new HashMap<>();
 
         params.put("query", query);
         params.put("tbox", tBox);
@@ -51,6 +52,7 @@ public class ReasoningServiceFacade {
         params.put("streamingURL", STREAMING_URL);
         params.put("namedModel", NAMED_MODEL);
         params.put("baseURI", BASE_URI);
+        params.put("uuids", Collections.EMPTY_LIST);
 
         Gson gson = new Gson();
         String json = gson.toJson(params);
