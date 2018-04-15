@@ -1,6 +1,7 @@
 package esmocyp.mobile.hub.server;
 
 import com.google.gson.JsonObject;
+import esmocyp.mobile.hub.model.TemperatureType;
 import esmocyp.mobile.hub.reasoning.ReasoningServiceFacade;
 import lac.cnclib.sddl.message.ApplicationMessage;
 import lac.cnclib.sddl.message.ClientLibProtocol;
@@ -18,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import java.io.IOException;
 import java.util.UUID;
 
 /**
@@ -33,7 +35,7 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
     ReasoningServiceFacade reasoningServiceFacade;
 
     @PostConstruct
-    public void init() {
+    public void init() throws IOException {
 
         // Create a layer and participant
         core = UniversalDDSLayerFactory.getInstance( UniversalDDSLayerFactory.SupportedDDSVendors.OpenSplice );
@@ -99,29 +101,20 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
      * @param data The data content of the event in JSON
      * @throws ParseException
      */
-    private void handleEvent( final String label, final JSONObject data ) throws ParseException {
+    private void handleEvent(
+            final String label
+            , final String uuid
+            , final JSONObject data ) throws IOException {
 
         System.out.println( "\n===========================" );
 
         switch( label ) {
-            case "MaxAVG":
-                Double avg = (Double) data.get( "average" );
-                if( avg > 30 )
-                    System.out.println( "Feels like hell!" );
-
-                else if( avg >= 20 && avg <= 30 )
-                    System.out.println( "The weather is perfect!" );
-
-                else
-                    System.out.println( "It is freezing here!" );
-                break;
-
             case "HeatIndex":
                 Double heat = ( Double ) data.get("value");
 
                 String message = null;
-                if( heat >= 80 && heat <= 90 ) {
-                    message = "Heat: Caution";
+                if( heat >= 80 ) {
+                    reasoningServiceFacade.stream("sala1", uuid, TemperatureType.VERY_HOT);
 
                 } else if( heat > 90 && heat <= 105 ) {
                     message = "Heat: Extreme Caution";
@@ -133,7 +126,6 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
                     message = "Heat: Extreme Danger";
 
                 }
-
 
                 System.out.println( heat );
                 break;
@@ -151,8 +143,6 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
 
         if( topicSample instanceof Message ) {
             msg = (Message) topicSample;
-            UUID nodeId = msg.getSenderId();
-            UUID gatewayId = msg.getGatewayId();
 
             String content = new String( msg.getContent() );
             JSONParser parser = new JSONParser();
@@ -167,9 +157,10 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
 
                     case "EventData":
                         final String label = (String) object.get( "label" );
+                        final String uuid = (String) object.get("uuid");
                         final JSONObject jsonObject = ( JSONObject ) object.get("data");
 
-                        handleEvent( label, jsonObject );
+                        handleEvent( label, uuid, jsonObject );
                         break;
 
                     case "LocationData":

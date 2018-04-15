@@ -1,0 +1,169 @@
+========================================================================================
+Report      : ERROR
+Date        : Sat Apr 14 16:41:00 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <7496>
+Thread      : spliced 7f48200cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523734860.565543040/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Apr 14 16:41:00 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <7496>
+Thread      : spliced 7f48200cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523734860.565594404/0
+========================================================================================
+Report      : API_INFO
+Date        : Sat Apr 14 16:42:28 -03 2018
+Description : The number of samples per instance '5000' has surpassed the warning level of '5000' samples per instance.
+Node        : ubuntu
+Process     : java <7496>
+Thread      : recv 7f47eb2fc700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_checkMaxSamplesPerInstanceWarningLevel/v_kernel.c/1882/769/1523734948.072620487/0
+========================================================================================
+Report      : API_INFO
+Date        : Sat Apr 14 16:42:28 -03 2018
+Description : The number of samples '5000' has surpassed the warning level of '5000' samples.
+Node        : ubuntu
+Process     : java <7496>
+Thread      : recv 7f47eb2fc700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_checkMaxSamplesWarningLevel/v_kernel.c/1865/769/1523734948.072695625/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Apr 14 16:45:16 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <3845>
+Thread      : spliced 7f89cc0d5700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523735116.219507880/0
+========================================================================================
+Report      : ERROR
+Date        : Sat Apr 14 16:45:16 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <3845>
+Thread      : spliced 7f89cc0d5700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523735116.219529160/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:15:45 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <22182>
+Thread      : spliced 7f81ec0a5700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523830545.086432255/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:15:45 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <22182>
+Thread      : spliced 7f81ec0a5700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523830545.086958521/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:17:26 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <22626>
+Thread      : spliced 7fa2e1263700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523830646.092880744/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:17:26 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <22626>
+Thread      : spliced 7fa2e1263700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523830646.092900887/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:36:48 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <27250>
+Thread      : spliced 7fbbd802b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523831808.322596775/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:36:48 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <27250>
+Thread      : spliced 7fbbd802b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523831808.322624430/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:38:30 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <27734>
+Thread      : spliced 7f82400ee700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523831910.774598741/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:38:30 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <27734>
+Thread      : spliced 7f82400ee700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523831910.774618841/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:39:52 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <28128>
+Thread      : spliced 7f38c9426700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523831992.455442169/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:39:52 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <28128>
+Thread      : spliced 7f38c9426700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523831992.455461974/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:40:40 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <28398>
+Thread      : spliced 7f7108054700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523832040.903652170/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:40:40 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <28398>
+Thread      : spliced 7f7108054700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523832040.903673291/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:42:28 -03 2018
+Description : dlopen of 'durability' failed: durability: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <28986>
+Thread      : spliced 7f93a4114700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/70/0/1523832148.360338721/0
+========================================================================================
+Report      : ERROR
+Date        : Sun Apr 15 19:42:28 -03 2018
+Description : Problem opening 'durability'
+
+Node        : ubuntu
+Process     : java <28986>
+Thread      : spliced 7f93a4114700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/633/0/1523832148.360359810/0
