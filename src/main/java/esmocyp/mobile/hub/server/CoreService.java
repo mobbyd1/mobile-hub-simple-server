@@ -1,7 +1,7 @@
 package esmocyp.mobile.hub.server;
 
 import com.google.gson.JsonObject;
-import esmocyp.mobile.hub.model.TemperatureType;
+import esmocyp.mobile.hub.model.StreamType;
 import esmocyp.mobile.hub.reasoning.ReasoningServiceFacade;
 import lac.cnclib.sddl.message.ApplicationMessage;
 import lac.cnclib.sddl.message.ClientLibProtocol;
@@ -114,7 +114,7 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
 
                 String message = null;
                 if( heat >= 80 ) {
-                    reasoningServiceFacade.stream("sala1", uuid, TemperatureType.VERY_HOT);
+                    reasoningServiceFacade.stream("sala1", "sensor1", StreamType.VERY_HOT);
 
                 } else if( heat > 90 && heat <= 105 ) {
                     message = "Heat: Extreme Caution";
@@ -129,6 +129,13 @@ public class CoreService implements UDIDataReaderListener<ApplicationObject> {
 
                 System.out.println( heat );
                 break;
+
+            case "HumidityIndex":
+                Double humidity = ( Double ) data.get("value");
+
+                if( humidity <= 10 ) {
+                    reasoningServiceFacade.stream("sala1", "sensor1", StreamType.DRY);
+                }
 
             default:
                 break;

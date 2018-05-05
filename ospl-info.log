@@ -943,3 +943,1137 @@ Node        : ubuntu
 Process     : java <9164>
 Thread      : ddsi2 7f0f14c60700
 Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1523835216.810641783/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:32:36 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1462372435 from [1,2147483647]
+Node        : ubuntu
+Process     : java <7999>
+Thread      : spliced 7fa2d0024700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525195956.844777224/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:32:36 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <7999>
+Thread      : spliced 7fa2d0024700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525195956.846011863/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:32:36 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <7999>
+Thread      : spliced 7fa2d0024700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525195956.846508026/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:32:36 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <7999>
+Thread      : spliced 7fa2d0024700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525195956.846634147/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:32:36 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <7999>
+Thread      : spliced 7fa2d0024700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525195956.847208701/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:32:36 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <7999>
+Thread      : ddsi2 7fa2ae463700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525195956.853444822/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:35:58 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 174100215 from [1,2147483647]
+Node        : ubuntu
+Process     : java <8934>
+Thread      : spliced 7fbd80daa700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525196158.539771534/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:35:58 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <8934>
+Thread      : spliced 7fbd80daa700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525196158.540218187/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:35:58 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <8934>
+Thread      : spliced 7fbd80daa700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196158.540676358/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:35:58 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <8934>
+Thread      : spliced 7fbd80daa700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525196158.540844197/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:35:58 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <8934>
+Thread      : spliced 7fbd80daa700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525196158.540970959/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:35:58 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <8934>
+Thread      : ddsi2 7fbd808b5700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196158.550389633/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:40:24 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 587904162 from [1,2147483647]
+Node        : ubuntu
+Process     : java <10291>
+Thread      : spliced 7fbd5aa9c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525196424.966189965/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:40:24 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <10291>
+Thread      : spliced 7fbd5aa9c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525196424.966714628/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:40:24 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <10291>
+Thread      : spliced 7fbd5aa9c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196424.967224482/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:40:24 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <10291>
+Thread      : spliced 7fbd5aa9c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525196424.967355303/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:40:24 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <10291>
+Thread      : spliced 7fbd5aa9c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525196424.967480133/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:40:24 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <10291>
+Thread      : ddsi2 7fbd5a5a7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196424.974758030/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:44:44 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 507506706 from [1,2147483647]
+Node        : ubuntu
+Process     : java <11218>
+Thread      : spliced 7f839453b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525196684.963755223/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:44:44 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <11218>
+Thread      : spliced 7f839453b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525196684.971950220/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:44:44 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <11218>
+Thread      : spliced 7f839453b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196684.972412356/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:44:44 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <11218>
+Thread      : spliced 7f839453b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525196684.972530152/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 14:44:44 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <11218>
+Thread      : spliced 7f839453b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525196684.972637982/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 14:44:44 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <11218>
+Thread      : ddsi2 7f8364ffe700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525196684.978625689/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:15:05 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 738298362 from [1,2147483647]
+Node        : ubuntu
+Process     : java <17036>
+Thread      : spliced 7ff2d80e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525198505.567263348/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:15:05 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <17036>
+Thread      : spliced 7ff2d80e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525198505.567738892/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:15:05 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <17036>
+Thread      : spliced 7ff2d80e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525198505.568391783/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:15:05 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <17036>
+Thread      : spliced 7ff2d80e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525198505.568528018/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:15:05 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <17036>
+Thread      : spliced 7ff2d80e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525198505.568619903/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:15:05 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <17036>
+Thread      : ddsi2 7ff2a839d700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525198505.578762714/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:24:46 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 711683202 from [1,2147483647]
+Node        : ubuntu
+Process     : java <18947>
+Thread      : spliced 7f1cbc204700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525199086.210725834/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:24:46 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <18947>
+Thread      : spliced 7f1cbc204700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525199086.211049472/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:24:46 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <18947>
+Thread      : spliced 7f1cbc204700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199086.211488431/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:24:46 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <18947>
+Thread      : spliced 7f1cbc204700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525199086.211662196/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:24:46 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <18947>
+Thread      : spliced 7f1cbc204700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525199086.211791916/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:24:46 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <18947>
+Thread      : ddsi2 7f1c8cc60700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199086.218601144/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:38:31 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 2119733592 from [1,2147483647]
+Node        : ubuntu
+Process     : java <21597>
+Thread      : spliced 7f2238104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525199911.710204528/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:38:31 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <21597>
+Thread      : spliced 7f2238104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525199911.710492170/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:38:31 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <21597>
+Thread      : spliced 7f2238104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199911.710898594/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:38:31 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <21597>
+Thread      : spliced 7f2238104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525199911.711020764/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:38:31 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <21597>
+Thread      : spliced 7f2238104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525199911.711112059/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:38:31 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <21597>
+Thread      : ddsi2 7f220831c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199911.717059286/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:39:53 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1527697180 from [1,2147483647]
+Node        : ubuntu
+Process     : java <21974>
+Thread      : spliced 7f1c9415b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525199993.706778706/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:39:53 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <21974>
+Thread      : spliced 7f1c9415b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525199993.707286876/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:39:53 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <21974>
+Thread      : spliced 7f1c9415b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199993.707783999/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:39:53 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <21974>
+Thread      : spliced 7f1c9415b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525199993.707901201/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:39:53 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <21974>
+Thread      : spliced 7f1c9415b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525199993.707994152/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:39:53 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <21974>
+Thread      : ddsi2 7f1c6431c700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525199993.714359347/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:44:17 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1044025799 from [1,2147483647]
+Node        : ubuntu
+Process     : java <22934>
+Thread      : spliced 7f9498b57700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525200257.897778523/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:44:17 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <22934>
+Thread      : spliced 7f9498b57700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525200257.898125300/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:44:17 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <22934>
+Thread      : spliced 7f9498b57700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525200257.898722657/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:44:17 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <22934>
+Thread      : spliced 7f9498b57700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525200257.898874719/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 15:44:17 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <22934>
+Thread      : spliced 7f9498b57700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525200257.899037293/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 15:44:17 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <22934>
+Thread      : ddsi2 7f94985e1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525200257.905848659/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:10 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 40199900 from [1,2147483647]
+Node        : ubuntu
+Process     : java <20029>
+Thread      : spliced 7f1bb0021700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525209670.056100096/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:10 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <20029>
+Thread      : spliced 7f1bb0021700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525209670.062946811/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:10 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20029>
+Thread      : spliced 7f1bb0021700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209670.071861341/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:21:10 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <20029>
+Thread      : spliced 7f1bb0021700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525209670.072023103/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:21:10 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <20029>
+Thread      : spliced 7f1bb0021700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525209670.072118875/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:10 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20029>
+Thread      : ddsi2 7f1b73ce2700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209670.090306550/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:39 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1121907844 from [1,2147483647]
+Node        : ubuntu
+Process     : java <20241>
+Thread      : spliced 7fbbbc038700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525209699.907466561/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:39 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <20241>
+Thread      : spliced 7fbbbc038700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525209699.912111928/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:39 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20241>
+Thread      : spliced 7fbbbc038700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209699.919444644/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:21:39 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <20241>
+Thread      : spliced 7fbbbc038700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525209699.919604265/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:21:39 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <20241>
+Thread      : spliced 7fbbbc038700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525209699.919705447/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:21:39 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20241>
+Thread      : ddsi2 7fbb9a777700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209699.944261867/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:23:52 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 468292773 from [1,2147483647]
+Node        : ubuntu
+Process     : java <20817>
+Thread      : spliced 7f68e81f7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525209832.222571350/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:23:52 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <20817>
+Thread      : spliced 7f68e81f7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525209832.235964608/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:23:52 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20817>
+Thread      : spliced 7f68e81f7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209832.247296022/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:23:52 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <20817>
+Thread      : spliced 7f68e81f7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525209832.247480612/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:23:52 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <20817>
+Thread      : spliced 7f68e81f7700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525209832.247586659/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:23:52 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <20817>
+Thread      : ddsi2 7f68c821e700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525209832.273220746/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:33:50 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 1953236905 from [1,2147483647]
+Node        : ubuntu
+Process     : java <22842>
+Thread      : spliced 7f8e5c028700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525210430.726602244/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:33:50 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <22842>
+Thread      : spliced 7f8e5c028700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525210430.727154776/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:33:50 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <22842>
+Thread      : spliced 7f8e5c028700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210430.727608484/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:33:50 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <22842>
+Thread      : spliced 7f8e5c028700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525210430.727772213/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:33:50 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <22842>
+Thread      : spliced 7f8e5c028700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525210430.727873558/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:33:50 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <22842>
+Thread      : ddsi2 7f8e3c104700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210430.734204707/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:25 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 534551102 from [1,2147483647]
+Node        : ubuntu
+Process     : java <23603>
+Thread      : spliced 7fead0049700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525210645.837213989/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:25 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <23603>
+Thread      : spliced 7fead0049700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525210645.837537207/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:25 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <23603>
+Thread      : spliced 7fead0049700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210645.837973733/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:37:25 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <23603>
+Thread      : spliced 7fead0049700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525210645.838104593/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:37:25 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <23603>
+Thread      : spliced 7fead0049700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525210645.838197102/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:25 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <23603>
+Thread      : ddsi2 7feab0b4d700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210645.844948817/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:59 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 317774103 from [1,2147483647]
+Node        : ubuntu
+Process     : java <23807>
+Thread      : spliced 7f5a4c63b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525210679.701929205/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:59 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <23807>
+Thread      : spliced 7f5a4c63b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525210679.702372732/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:59 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <23807>
+Thread      : spliced 7f5a4c63b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210679.702760340/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:37:59 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <23807>
+Thread      : spliced 7f5a4c63b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525210679.702879998/0
+========================================================================================
+Report      : WARNING
+Date        : Tue May 01 18:37:59 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <23807>
+Thread      : spliced 7f5a4c63b700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525210679.702965633/0
+========================================================================================
+Report      : INFO
+Date        : Tue May 01 18:37:59 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <23807>
+Thread      : ddsi2 7f5a2cffe700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525210679.709935965/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:31:56 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 286264133 from [1,2147483647]
+Node        : ubuntu
+Process     : java <4306>
+Thread      : spliced 7f44ecd78700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525303916.292625142/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:31:56 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <4306>
+Thread      : spliced 7f44ecd78700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525303916.294352991/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:31:56 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <4306>
+Thread      : spliced 7f44ecd78700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525303916.295114240/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:31:56 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <4306>
+Thread      : spliced 7f44ecd78700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525303916.295374510/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:31:56 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <4306>
+Thread      : spliced 7f44ecd78700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525303916.296741741/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:31:56 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <4306>
+Thread      : ddsi2 7f44ec802700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525303916.306110121/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:36:41 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 2141418133 from [1,2147483647]
+Node        : ubuntu
+Process     : java <5398>
+Thread      : spliced 7fcf5c3d1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525304201.995159483/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:36:41 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <5398>
+Thread      : spliced 7fcf5c3d1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525304201.995929149/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:36:41 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <5398>
+Thread      : spliced 7fcf5c3d1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525304201.996368580/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:36:41 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <5398>
+Thread      : spliced 7fcf5c3d1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525304201.996526492/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:36:41 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <5398>
+Thread      : spliced 7fcf5c3d1700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525304201.996650158/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:36:42 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <5398>
+Thread      : ddsi2 7fcf5c178700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525304202.003620405/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:40:24 -03 2018
+Description : ---------------------------------------------------------------
+              -- The service is using the following configuration settings --
+              ---------------------------------------------------------------
+              Domain (id)          : ospl_sp_ddsi (0)
+              Storage              : 0 Kbytes
+              Storage threshold    : 1024 Kbytes
+              Storage address      : Not available
+              Locking              : default
+              Memory mode          : Heap memory
+              Builtin topics       : true
+              Priority inheritance : false
+              SystemId             : 2091532475 from [1,2147483647]
+Node        : ubuntu
+Process     : java <6239>
+Thread      : spliced 7f04840cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/The OpenSplice domain service/u_domain.c/659/0/1525304424.910173650/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:40:24 -03 2018
+Description : Service cmsoap disabled
+Node        : ubuntu
+Process     : java <6239>
+Thread      : spliced 7f04840cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/sr_componentInfo.c/447/0/1525304424.910695596/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:40:24 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'splicedaemon' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <6239>
+Thread      : spliced 7f04840cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525304424.911188832/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:40:24 -03 2018
+Description : dlopen of auto-translated name 'libdurability.so' failed: libdurability.so: cannot open shared object file: No such file or directory
+Node        : ubuntu
+Process     : java <6239>
+Thread      : spliced 7f04840cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/os_libraryOpen/os_library.c/59/0/1525304424.911342128/0
+========================================================================================
+Report      : WARNING
+Date        : Wed May 02 20:40:24 -03 2018
+Description : Could not start service durability as thread
+Node        : ubuntu
+Process     : java <6239>
+Thread      : spliced 7f04840cf700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/OpenSplice domain service/spliced.c/706/0/1525304424.911456671/0
+========================================================================================
+Report      : INFO
+Date        : Wed May 02 20:40:24 -03 2018
+Description : ++++++++++++++++++++++++++++++++++++++++++++++++
+              ++ The service 'ddsi2' is now operational. 
+              ++++++++++++++++++++++++++++++++++++++++++++++++
+Node        : ubuntu
+Process     : java <6239>
+Thread      : ddsi2 7f046437e700
+Internals   : 6.7.171127OSS/fcc005a/fcc005a/v_serviceChangeState/v_service.c/295/0/1525304424.919192621/0

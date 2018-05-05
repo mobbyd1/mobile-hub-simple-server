@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/esmocyp#"
+     xml:base="http://www.semanticweb.org/esmocyp"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:esmocyp="http://www.semanticweb.org/esmocyp#">
+
+    <owl:Ontology rdf:about="http://www.semanticweb.org/esmocyp"/>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://www.semanticweb.org/esmocyp#sala1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esmocyp#sala1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/esmocyp#Sala"/>
+        <esmocyp:temSensor rdf:resource="http://www.semanticweb.org/esmocyp#sensor1"/>
+        <esmocyp:temSensor rdf:resource="http://www.semanticweb.org/esmocyp#sensor2"/>
+        <esmocyp:temSensor rdf:resource="http://www.semanticweb.org/esmocyp#sensor3"/>
+        <rdfs:label>sala1</rdfs:label>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/esmocyp#sensor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esmocyp#sensor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/esmocyp#Sensor"/>
+        <rdfs:label>sensor1</rdfs:label>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/esmocyp#sensor2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esmocyp#sensor2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/esmocyp#Sensor"/>
+        <rdfs:label>sensor2</rdfs:label>
+    </owl:NamedIndividual>
+
+
+    <!-- http://www.semanticweb.org/esmocyp#sensor3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/esmocyp#sensor3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/esmocyp#Sensor"/>
+        <rdfs:label>sensor3</rdfs:label>
+    </owl:NamedIndividual>
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/esmocyp#sensor1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/esmocyp#sensor2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/esmocyp#sensor3"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+
+</rdf:RDF>
+

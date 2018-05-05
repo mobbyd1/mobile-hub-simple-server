@@ -2,7 +2,7 @@ package esmocyp.mobile.hub.reasoning;
 
 import com.google.common.io.Files;
 import com.google.gson.Gson;
-import esmocyp.mobile.hub.model.TemperatureType;
+import esmocyp.mobile.hub.model.StreamType;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
@@ -11,10 +11,12 @@ import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.UUID;
 
 /**
  * Created by ruhan on 25/03/18.
@@ -22,13 +24,13 @@ import java.util.UUID;
 @Service
 public class ReasoningServiceFacade {
 
-    private static final String BASE_URI = "http://www.semanticweb.org/sensors#";
+    private static final String BASE_URI = "http://www.semanticweb.org/esmocyp#";
     private static final String NAMED_MODEL = "http://www.semanticweb.org/sensors-data";
     private static final String STREAMING_URL = "http://www.semanticweb.org/sensors/stream";
 
-    private static final String SERVICE_BASE_URL = "http://192.168.25.189:8080/api/reasoner/";
+    private static final String SERVICE_BASE_URL = "http://192.168.0.5:8080/api/reasoner/";
 
-    private static final String TOKEN = "Bearer 17d19e4a-28bc-45a4-a072-a874364c4204";
+    private static final String TOKEN = "Bearer a9c0c34e-1c67-4786-8959-03333323dca1";
 
     /**
      * Make a post call to init the reasoning service
@@ -40,15 +42,13 @@ public class ReasoningServiceFacade {
         HttpPost httpPost = new HttpPost(SERVICE_BASE_URL + "create" );
         buildHttpHeaders(httpPost);
 
-        String tBox = getFileAsString("esmocyp-temperature.owl");
-        String aBox = getFileAsString("esmocyp-temperature-data.rdf");
         String query = getQuery();
 
         Map<String, Object> params = new HashMap<>();
 
         params.put("query", query);
-        params.put("tbox", tBox);
-        params.put("aBox", aBox);
+//        params.put("tbox", tBox);
+//        params.put("aBox", aBox);
         params.put("streamingURL", STREAMING_URL);
         params.put("namedModel", NAMED_MODEL);
         params.put("baseURI", BASE_URI);
@@ -64,7 +64,7 @@ public class ReasoningServiceFacade {
     public void stream(
             String room
             , String sensorId
-            , TemperatureType temperatureType ) throws IOException {
+            , StreamType streamType) throws IOException {
 
         HttpClient httpClient = HttpClientBuilder.create().build();
 
@@ -72,7 +72,7 @@ public class ReasoningServiceFacade {
         buildHttpHeaders(httpPost);
 
         String subject = BASE_URI + room;
-        String predicate = BASE_URI + temperatureType.getPredicate();
+        String predicate = BASE_URI + streamType.getPredicate();
         String object = BASE_URI + sensorId;
 
         Map<String, String> params = new HashMap<>();
@@ -83,6 +83,11 @@ public class ReasoningServiceFacade {
 
         Gson gson = new Gson();
         String json = gson.toJson(params);
+
+        DateFormat dateFormat = new SimpleDateFormat("dd-MM-yyyy:HH:mm:ss.sssss");
+        Date now = new Date();
+
+        System.out.println( dateFormat.format(now) + " Sent message: " + json );
 
         httpPost.setEntity(new StringEntity(json));
         httpClient.execute(httpPost);
@@ -104,7 +109,7 @@ public class ReasoningServiceFacade {
                 + "FROM STREAM <" + STREAMING_URL + "> [RANGE 1s STEP 1s] "
                 + "FROM <" + NAMED_MODEL + "> "
                 + "WHERE { "
-                + "?s a :SalaPegandoFogo ."
+                + "?s a :SalaEmPerigo ."
                 + "} ";
 
         return queryBody;
